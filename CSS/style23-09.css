@@ -1,0 +1,103 @@
+*{/*TODOS OS ELEMENTOS*/
+    /* Garante que os elementos respeitem 
+    *as dimensões quando possuem padding e border
+    */
+   box-sizing: border-box;
+}
+body{
+    font-family: 'Arial',sans-serif;
+    margin: 0;
+}
+
+.meubotao{
+    background-color: #815581;
+    border: none;
+    color: white;
+    /* <vertical> <horizontal>*/
+
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 6px 4px;
+    /* Icone de clique*/
+
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+
+/* quando o usuário passa o mouse*/
+.meubotao:hover{
+
+    background-color: aquamarine;
+}
+.meubotao-azul{
+    background-color: rgb(158, 51, 207);
+}
+.my-table{
+   
+     width: 400px;
+         border-collapse: collapse;
+     margin: auto;
+}
+/* eatiliza td/th dentro do my-table*/
+.my-table td, .my-table th{
+    border: 1px solid #be6c28;
+    padding: 8x;
+   
+
+
+}
+.my-table th{
+
+    background-color: rgb(144, 182, 152);
+    padding: 12px 0;
+    color: aliceblue;
+}
+.my-table tr:hover{
+    background-color: blanchedalmond;
+
+}
+/* even = par*/
+/*
+ Aplica o estilo aos tr númerp par
+*/
+.my-table tr:nth-child(even){
+    background-color: #869799;
+}
+/* Alinh os elementos de dentro de cada célula*/
+.my-table td{
+    text-align: center;
+    height: 50px;
+}
+/*custom foorm*/
+
+.my-form{
+    border-radius: 6px;
+    background-color: beige;
+    padding: 20px 16px;
+    width: 400px;
+    margin: auto;
+}
+.my-form input{
+    width: 100%;
+    padding: 12px 8px;
+    border: 1px solid darkgrey;
+    border-radius: 6px;
+    margin-top: 4px;
+}
+.toda-largura{
+    width: 100%;
+    margin: 6px 0;
+}
+.my-form-group{
+    margin-bottom: 8px;
+}
+h3{
+    text-align: center;
+    color: #271bc9;
+}
+ h2{
+    text-align: center;
+    color: #4b0d92;
+ }
